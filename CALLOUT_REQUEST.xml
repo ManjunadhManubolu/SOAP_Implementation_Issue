@@ -1,0 +1,13 @@
+00:18:46.1 (691334025)|CALLOUT_REQUEST|[53]|
+<?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<env:Header />
+<env:Body>
+<GetAuthorizationToken xmlns="http://www.campusmgmt.com/Soa/Foundation/">
+<TokenRequest>
+<UserName xmlns="http://www.campusmgmt.com/Soa/Foundation/MessageDefinition.xsd">MyUserName</UserName>
+<Password xmlns="http://www.campusmgmt.com/Soa/Foundation/MessageDefinition.xsd">MyPassword</Password>
+</TokenRequest>
+</GetAuthorizationToken>
+</env:Body>
+</env:Envelope>

@@ -1,0 +1,17 @@
+00:18:46.1 (904976832)|CALLOUT_RESPONSE|[53]|
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<soap:Header>
+<ResponseHeader xmlns="http://www.campusmgmt.com/Soa/Foundation/"><Headers></Headers>
+</ResponseHeader>
+</soap:Header>
+<soap:Body>
+<GetAuthorizationTokenResponse xmlns="http://www.campusmgmt.com/Soa/Foundation/">
+<TokenResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.campusmgmt.com/Soa/Foundation/MessageDefinition.xsd">
+  <Status>ErrorSecurity</Status>
+  <TrxResult>GeTrxResultBusinessLogicFailedMessage~One or more messages failed execution. Please check each message TrxResult value for more details.</TrxResult>
+  <TokenId />
+</TokenResponse>
+</GetAuthorizationTokenResponse>
+</soap:Body>
+</soap:Envelope>

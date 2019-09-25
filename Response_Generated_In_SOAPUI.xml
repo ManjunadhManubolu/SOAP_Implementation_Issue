@@ -1,0 +1,17 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <soap:Header>
+      <ResponseHeader xmlns="http://www.campusmgmt.com/Soa/Foundation/">
+         <Headers/>
+      </ResponseHeader>
+   </soap:Header>
+   <soap:Body>
+      <GetAuthorizationTokenResponse xmlns="http://www.campusmgmt.com/Soa/Foundation/">
+         <TokenResponse xmlns="http://www.campusmgmt.com/Soa/Foundation/MessageDefinition.xsd">
+            <Status>OK</Status>
+            <TrxResult>OK</TrxResult>
+            <TokenId>YCcxKGVwcgF4wZizikNvvJz0FqC1Bu039cF/hzWIJp9ED9FePy+RQED2F1bOI8MRRJ7xQslTnk9P6mCL3eifDjvAaUEEd3wSRfuooY4RqcEI4qIsajmmHrB8KEezDLxYTv890aD0tRQrno</TokenId>
+            <UserId>11111</UserId>
+         </TokenResponse>
+      </GetAuthorizationTokenResponse>
+   </soap:Body>
+</soap:Envelope>

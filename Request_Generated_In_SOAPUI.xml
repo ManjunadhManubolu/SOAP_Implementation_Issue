@@ -1,0 +1,16 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:foun="http://www.campusmgmt.com/Soa/Foundation/" xmlns:mes="http://www.campusmgmt.com/Soa/Foundation/MessageDefinition.xsd">
+<soapenv:Header/>
+   <soapenv:Body>
+      <foun:GetAuthorizationToken>
+         <!--Optional:-->
+         <mes:TokenRequest>
+            <!--Optional:-->
+            <mes:UserName>MyUserName</mes:UserName>
+            <!--Optional:-->
+            <mes:Password>MyPassword</mes:Password>
+            <!--Optional:-->
+            
+         </mes:TokenRequest>
+      </foun:GetAuthorizationToken>
+   </soapenv:Body>
+</soapenv:Envelope>
